@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">FragmentControl</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Fragment Control</string>
     <string name="action_settings">Settings</string>
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="hello_one_fragment">Hello One fragment</string>
-    <string name="hello_two_fragment">Hello Two fragment</string>
+    <string name="hello_one_fragment">Glide 3.6.1</string>
+    <string name="hello_two_fragment">Second Fragment</string>
 </resources>

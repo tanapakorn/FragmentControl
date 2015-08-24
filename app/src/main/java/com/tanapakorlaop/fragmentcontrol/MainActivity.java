@@ -1,12 +1,16 @@
 package com.tanapakorlaop.fragmentcontrol;
 
 
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
 
 public class MainActivity extends FragmentActivity implements MyFragment.OnFragmentInteractionListener {
 
@@ -19,7 +23,6 @@ public class MainActivity extends FragmentActivity implements MyFragment.OnFragm
         MyPageAdapter myPageAdapter = new MyPageAdapter(getSupportFragmentManager());
         viewPager = (ViewPager)findViewById(R.id.viewPager);
         viewPager.setAdapter(myPageAdapter);
-
     }
 
     @Override
@@ -48,4 +51,5 @@ public class MainActivity extends FragmentActivity implements MyFragment.OnFragm
     public void onFragmentInteraction(Uri uri) {
 
     }
+
 }

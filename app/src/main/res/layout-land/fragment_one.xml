@@ -5,16 +5,18 @@
     tools:context="com.tanapakorlaop.fragmentcontrol.MyFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:text="@string/hello_one_fragment" android:textSize="@dimen/fragment_text_normal"
         android:textColor="@color/text_color_black"
-        android:layout_gravity="center" />
+        android:layout_gravity="right|center_vertical"
+        android:paddingRight="50dp"/>
 
     <ImageView
         android:id="@+id/picture"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:layout_gravity="center_horizontal|top" />
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_gravity="left|center_vertical" />
 
 </FrameLayout>
