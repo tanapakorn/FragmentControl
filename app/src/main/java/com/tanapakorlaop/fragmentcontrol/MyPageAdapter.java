@@ -19,12 +19,14 @@ public class MyPageAdapter extends FragmentPagerAdapter {
             return new FirstFragment();
         } else if(i == 1) {
             return new SecondFragment();
+        }else if(i == 2) {
+            return new ThirdFragment();
         }
         return null;
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 }

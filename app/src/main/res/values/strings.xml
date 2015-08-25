@@ -6,6 +6,7 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="hello_one_fragment">Glide 3.6.1</string>
+    <string name="hello_one_fragment">Simple\nGlide 3.6.1</string>
     <string name="hello_two_fragment">Second Fragment</string>
+    <string name="fragment_three_text_1"><![CDATA[GridView & Glide]]></string>
 </resources>
